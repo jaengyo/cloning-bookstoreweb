@@ -5,14 +5,220 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <nav></nav>
-      <div class="header__search-bar"></div>
+      <nav>
+        <div class="nav__column">
+          <!-- <i class="fas fa-bars"></i> -->
+          <div class="bars-icon">
+            <div class="bars-icon__bar"></div>
+            <div class="bars-icon__bar bars-icon__bar--short"></div>
+            <div class="bars-icon__bar"></div>
+          </div>
+        </div>
+        <div class="nav__column">library</div>
+        <div class="nav__column">
+          <i class="fas fa-shopping-basket fa-lg"></i>
+        </div>
+      </nav>
+      <div class="header__search-bar">
+        <input type="text" placeholder="Search books..." />
+        <i class="fas fa-search"></i>
+      </div>
     </header>
-
-    <!-- <i class="fas fa-shopping-basket"></i> -->
+    <main class="main-screen">
+      <article class="book-of-the-day">
+        <div class="article__title">Book of the day</div>
+        <div class="article__content">
+          <div class="article__content__column">
+            <img
+              class="article__content__column--book-image"
+              src="https://images-na.ssl-images-amazon.com/images/I/51FpM1jpyML._SX324_BO1,204,203,200_.jpg"
+            />
+          </div>
+          <div class="article__content__column">
+            <div class="article__content-title">No Fixed Adobe</div>
+            <span class="article__content-describes">Journey Through</span>
+            <div class="article__book-rate book-rate-3">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="article__genres">
+              <div class="article__genres-genre">Journey</div>
+              <div class="article__genres-genre">Biography</div>
+            </div>
+            <div class="article__pick">
+              <div class="article__pick-bookmarks">
+                <i class="fas fa-bookmark fa-xs"></i>
+              </div>
+              <div class="article__pick-book-now">Book now</div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="top-adventures">
+        <div class="article__title">Top Adventures</div>
+        <div class="book-list">
+          <div class="book-list__book">
+            <div class="book-list__book-bookimage">
+              <img src="https://image.yes24.com/Goods/66898663/L" />
+            </div>
+            <div class="book-list__book-rate book-rate-2">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="book-list__book">
+            <div class="book-list__book-bookimage">
+              <img
+                src="https://images-na.ssl-images-amazon.com/images/I/919-2hQNB6L.jpg
+              "
+              />
+            </div>
+            <div class="book-list__book-rate book-rate-3">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="book-list__book">
+            <div class="book-list__book-bookimage">
+              <img src="https://m.media-amazon.com/images/I/51waks01PAL.jpg" />
+            </div>
+            <div class="book-list__book-rate book-rate-3">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="book-list__book">
+            <div class="book-list__book-bookimage">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMQVxzhnBJA797RmFLtmOH2dVUOPZlfGFkkQ&usqp=CAU
+              "
+              />
+            </div>
+            <div class="book-list__book-rate book-rate-2">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="book-list__book">
+            <div class="book-list__book-bookimage">
+              <img
+                src="https://images-na.ssl-images-amazon.com/images/I/81iqZ2HHD-L.jpg
+              "
+              />
+            </div>
+            <div class="book-list__book-rate book-rate-4">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="book-list__book">
+            <div class="book-list__book-bookimage">
+              <img
+                src="https://images-na.ssl-images-amazon.com/images/I/91TpLHDnuFL.jpg
+              "
+              />
+            </div>
+            <div class="book-list__book-rate book-rate-1">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="book-list__book">
+            <div class="book-list__book-bookimage">
+              <img
+                src="https://hpmedia.bloomsbury.com/rep/s/9781408855942_309034.jpeg
+              "
+              />
+            </div>
+            <div class="book-list__book-rate book-rate-4">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="book-list__book">
+            <div class="book-list__book-bookimage">
+              <img
+                src="https://hpmedia.bloomsbury.com/rep/s/978%201408855928_309033.jpeg"
+              />
+            </div>
+            <div class="book-list__book-rate book-rate-3">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="book-list__book">
+            <div class="book-list__book-bookimage">
+              <img
+                src="https://images-na.ssl-images-amazon.com/images/I/8134AkhQJgL.jpg"
+              />
+            </div>
+            <div class="book-list__book-rate book-rate-2">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="popular-authors">
+        <div class="article__title">Popular authors</div>
+        <div class="article__content">
+          <div class="article__content__column">
+            <img
+              class="article__content__column--book-image"
+              src="https://www.biography.com/.image/c_fill%2Ccs_srgb%2Cfl_progressive%2Ch_400%2Cq_auto:good%2Cw_620/MTY2MTcyNTE2MzQyMDQ4Mzk4/the-beatles-rehearse-for-that-nights-royal-variety-performance-at-the-prince-of-wales-theatre-4th-november-1963-the-queen-mother-will-attend-photo-by-central-press_hulton-archive_getty-images.jpg"
+            />
+          </div>
+          <div class="article__content__column">
+            <div class="article__content-title">Beatles-"Let it be"</div>
+            <div class="article__content-describes">
+              When I find myself in times of trouble, Mother Mary comes to me
+              Speaking words of wisdom, let it be And in my hour of darkness she
+              is standing right in front of me Speaking words of wisdom, let it
+              be Let it be, let it be, let it be, let it be Whisper words of
+              wisdom, let it be
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
     <script
       src="https://kit.fontawesome.com/85d4104f41.js"
       crossorigin="anonymous"

@@ -1,0 +1,46 @@
+.book-rate-0 {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.book-rate-1 {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.book-rate-1 i:first-child {
+  color: var(--main-color);
+}
+
+.book-rate-2 {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.book-rate-2 i:first-child,
+.book-rate-2 i:nth-child(2) {
+  color: var(--main-color);
+}
+
+.book-rate-3 {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.book-rate-3 i:first-child,
+.book-rate-3 i:nth-child(2),
+.book-rate-3 i:nth-child(3) {
+  color: var(--main-color);
+}
+
+.book-rate-4 {
+  color: var(--main-color);
+}
+
+.book-rate-4 i:last-child {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.book-rate-5 {
+  color: var(--main-color);
+}
+
+.book-list .fa-star {
+  font-size: 10px;
+}

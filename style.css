@@ -1,8 +1,29 @@
 @import url("components/header.css");
+@import url("components/rate.css");
 
+@import url("article.css");
 @import url("variables.css");
-@import url("reset.css");
 
 body {
   background-color: white;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.main-screen {
+  margin-top: 50px;
+  padding: 15px;
+  height: 800px;
+}
+
+.bars-icon__bar {
+  border-bottom: 3px solid black;
+  width: 20px;
+  margin: 4px;
+}
+
+.bars-icon__bar--short {
+  width: 10px;
 }

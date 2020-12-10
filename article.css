@@ -1,0 +1,134 @@
+article {
+  height: 200px;
+  width: 100%;
+}
+
+.article__title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
+.article__content {
+  display: flex;
+  flex-direction: row;
+}
+
+.article__content__column:first-child {
+  margin-right: 10px;
+}
+
+.book-of-the-day .article__content__column:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.article__content__column--book-image {
+  border-radius: 15px;
+}
+
+.article__content-title {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.article__content-describes {
+  font-size: 12px;
+  opacity: 0.3;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.article__book-rate {
+  margin-bottom: 20px;
+}
+
+.article__genres {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.article__genres-genre {
+  font-size: 13px;
+  height: 30px;
+  width: 80px;
+
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.article__pick {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.article__pick-bookmarks {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-color);
+  border-radius: 50%;
+}
+
+.article__pick-book-now {
+  height: 30px;
+  width: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.book-of-the-day {
+  height: 250px;
+}
+
+.book-of-the-day .article__content__column--book-image {
+  width: 120px;
+  height: 180px;
+}
+
+.popular-authors {
+  height: 210px;
+  margin-top: 5px;
+}
+
+.popular-authors .article__content__column--book-image {
+  width: 160px;
+  height: 140px;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.book-list__book {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.book-list__book-bookimage img {
+  margin-bottom: 5px;
+  width: 80px;
+  height: 120px;
+  border-radius: 5px;
+}

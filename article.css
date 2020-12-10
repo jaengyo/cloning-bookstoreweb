@@ -38,6 +38,7 @@ article {
   opacity: 0.3;
   display: inline-block;
   margin-bottom: 5px;
+  overflow: auto;
 }
 
 .article__book-rate {
@@ -114,8 +115,11 @@ article {
 
 .book-list {
   display: flex;
-  flex-wrap: nowrap;
-  overflow: hidden;
+  overflow: scroll;
+}
+
+.book-list::-webkit-scrollbar {
+  display: none;
 }
 
 .book-list__book {
@@ -131,4 +135,19 @@ article {
   width: 80px;
   height: 120px;
   border-radius: 5px;
+}
+
+.popular-authors .article__content-describes {
+  height: 110px;
+}
+
+.popular-authors .article__content-describes::-webkit-scrollbar {
+  display: none;
+}
+
+.canscroll {
+  margin-left: 8px;
+  font-size: 12px;
+  color: gray;
+  opacity: 0.2;
 }
